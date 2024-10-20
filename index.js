@@ -7,6 +7,7 @@ require('dotenv').config(); // Load environment variables from .env file in deve
 const app = express(); // Create an Express application instance.
 app.use(express.json()); // Middleware to parse incoming JSON request bodies.
 
+// This is comment
 // Enable CORS (Cross-Origin Resource Sharing) for all routes
 app.use(cors());
 
